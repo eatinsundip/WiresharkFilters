@@ -1,7 +1,7 @@
-### WIRESHARK FILTERS
+# WIRESHARK FILTERS
 
 
-# All active TLS SNIs without noise
+### All active TLS SNIs without noise
 -  filters only packets with an SNI present
 -  Drops SNIs with domains like Microsoft and Cloudflare that are most of the time, just noise.
 
